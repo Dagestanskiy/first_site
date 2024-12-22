@@ -1,0 +1,197 @@
+.header{
+    background-color: black;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+}
+.header__title{
+    background: linear-gradient(45deg, red, violet, aqua);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.header__item{
+    color: rgb(228, 228, 228);
+    margin-left: 33px;
+    font-family: fantasy;
+}
+.container_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+.hero-block__info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.container_hero-block{
+    display: flex;
+    align-items: center;
+}
+.hero-block__title{
+    color: rgb(228, 228, 228);
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 50px;   
+    margin-top: 0px;
+}
+.hero-block__text{
+    color: rgb(228, 228, 228);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 50px; 
+}
+.hero-block{
+    background-color: black;
+}
+.hero-block__img{
+    width: 632px;
+    height: 574px;
+    left: 47px;
+    right: 833px;
+    top: 67px;
+    bottom: 66px;
+
+}
+.second-block{
+    background: rgb(62, 62, 62);
+}
+.second-block__title{
+    margin-top: 0px;
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.second-block__text{
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.second-block__item{
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    list-style: none;
+}
+.second-block__img{
+    width: 520px;
+    height: 520px;
+}
+.dop-block{
+    align-content: center;
+}
+
+.info-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_video{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.video__video{
+    width: 75%;
+    height: 500px;
+    border: 50px solid rgb(221, 202, 202);  
+    border-radius: 29px;
+    background: linear-gradient(135.29deg, rgb(189, 93, 93) 0%,rgb(45, 45, 45) 100.297%);
+}
+.video{
+    background-image: url(https://static.tildacdn.com/tild6137-3037-4837-b437-616464646636/10-min.jpg);
+}
+.video__title{
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.gallery__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery__img{
+    width: 370px;
+    height: 260px;
+    clip-path: circle();
+    margin-bottom: 8px;
+    margin-left: 7px;
+}
+.gallery__title{
+    margin-top: 0px;
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.gallery{
+    background-color: rgb(62, 62, 62);
+}
+.container_gallery{
+    padding-bottom: 20px;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+}
+.footer__img{
+    width: 100%;
+}
+.footer__item{
+    width: 50px;
+    margin-right: 7px;
+}
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.footer{
+    background: linear-gradient(90deg,blue, orange);
+    height: 130px;
+}
+.footer__title{
+    color: white;
+}
+.footer__text{
+    color: white;
+}
